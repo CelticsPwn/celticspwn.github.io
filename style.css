@@ -1,42 +1,50 @@
-body {
-    /*background-image: url("comet.jpg");*/
-    background-color: #555;
+body{
+background-image: url("comet.jpg");
 }
-/* Style the tab buttons */
-.tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
+.title_slide {
+    height: 100vh;
+    width: 100vw;  
+    margin: 0;
+    padding: 0;
 }
-
-/* Change background color of buttons on hover */
-.tablink:hover {
-    background-color: #777;
-}
-
-/* Set default styles for tab content */
-.tabcontent {
-    color: white;
-    display: none;
-    padding: 50px;
+.opening_text {
     text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    color: white;
+    top: 50%;
 }
 
-/* Style each tab content individually */ 
-#met {background-color:red;}
-#dailycal {background-color:green;}
-#volleyball {background-color:blue;}
-#projects {background-color:orange;}
 
-h1 {
-    color: black;
-    margin-left: 20px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
 

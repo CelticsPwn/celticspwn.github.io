@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Lawrence Zhao</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Lawrence Zhao</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<h1>Lawrence Zhao</h1>
-<p>Welcome to Lawrence Zhao's website! Unfortunately, this website is still under construction. Come back soon to see the final product!</p>
+  <nav class = "navigation" id = "topnavbar">
+      <ul class = "navigation_bar">
+        <li class = "nav_element" id = "nav_home"><a href="#home" class = "nav_link">Home</a></li>
+        <li class = "nav_element" id = "nav_about"><a href="#about">About</a></li>
+        <li class = "nav_element" id = "nav_projects"><a href="#projects">Projects</a></li>
+        <li class = "nav_element" id = "nav_resume"><a href="Resume - Lawrence Zhao.pdf">Resume</a></li>
+        <li class = "nav_element" id = "nav_interests"><a href="#interests">Interests</a></li>
+        <li class = "nav_element" id = "nav_contact"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav> 
 
-<div id="met" class="tabcontent">
-  <h3>M.E.T.</h3>
-  <p>Inaugural Management, Entrepreneurship, and Technology Class of 2021 at UC, Berkeley</p>
-</div>
+  <div class = "title_slide" id = "home">
 
-<div id="dailycal" class="tabcontent">
-  <h3>DailyCal</h3>
-  <p>Staff Writer covering eSports for the Daily Californian</p> 
-</div>
+    <div class = "opening_text">
+      <h1 id = "name_title">Hi, I'm Lawrence Zhao</h1>
+      <h3 id = "subtitle">Welcome to Lawrence Zhao's website! Unfortunately, this website is still under construction. Come back soon to see the final product!</h3>
+    </div>
+  </div>
 
-<div id="volleyball" class="tabcontent">
-  <h3>Cal Men's Club Volleyball</h3>
-  <p>Team Manager and Statskeeper for Cal Men's Club Volleyball Team</p>
-</div>
-
-<div id="projects" class="tabcontent">
-  <h3>Projects</h3>
-  <p>Projects I have worked on</p>
-</div>
-
-<button class="tablink" onclick="openTab('met', this, 'red')" id="defaultOpen">M.E.T.</button>
-<button class="tablink" onclick="openTab('dailycal', this, 'green')">DailyCal</button>
-<button class="tablink" onclick="openTab('volleyball', this, 'blue')">Volleyball</button>
-<button class="tablink" onclick="openTab('projects', this, 'orange')">Projects</button>
+  <div class = "about" id = "about">
+    <h1 id = "about_title" class = "section_title">About Me</h1>
+    <p class = "about_text">about</p>
+  </div>
 
 <script src="script.js"></script>
 
