@@ -1,33 +1,35 @@
-/* Set the width of the side navigation to 250px */
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
+$("#nav_home").click(function() {
+	$("HTML, BODY").animate({
+    		scrollTop: 0
+	}, 1000);
+});
 
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+$("#nav_about").click(function() {
+	var position = $("#about").offset().top;
+	$("HTML, BODY").animate({
+    		scrollTop: position
+	}, 1000);
+});
 
-function openTab(tabName, elmnt, color) {
-    // Hide all elements with class="tabcontent" by default */
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
+$("#nav_projects").click(function() {
+	var position = $("#projects").offset().top;
+	$("HTML, BODY").animate({
+    		scrollTop: position
+	}, 1000);
+});
 
-    // Remove the background color of all tablinks/buttons
-    tablinks = document.getElementsByClassName("tablink");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.backgroundColor = "";
-    }
+$("#nav_interests").click(function() {
+	var position = $("#interests").offset().top;
+	$("HTML, BODY").animate({
+    		scrollTop: position
+	}, 1000);
+});
 
-    // Show the specific tab content
-    document.getElementById(tabName).style.display = "block";
+$("#nav_contact").click(function() {
+	var position = $("#contact").offset().top;
+	$("HTML, BODY").animate({
+   		 scrollTop: position
+	}, 1000);
+});
 
-    // Add the specific color to the button used to open the tab content
-    elmnt.style.backgroundColor = color;
-}
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();

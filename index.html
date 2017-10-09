@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lawrence Zhao</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Lawrence Zhao</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-  <nav class = "navigation" id = "topnavbar">
-      <ul class = "navigation_bar">
-        <li class = "nav_element" id = "nav_home"><a href="#home" class = "nav_link">Home</a></li>
-        <li class = "nav_element" id = "nav_about"><a href="#about">About</a></li>
-        <li class = "nav_element" id = "nav_projects"><a href="#projects">Projects</a></li>
-        <li class = "nav_element" id = "nav_resume"><a href="Resume - Lawrence Zhao.pdf">Resume</a></li>
-        <li class = "nav_element" id = "nav_interests"><a href="#interests">Interests</a></li>
-        <li class = "nav_element" id = "nav_contact"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav> 
+	<nav class = "navigation" id = "topnavbar">
+		<ul class = "navigation_bar">
+			<li class = "nav_element" id = "nav_home"><a href="#home" class = "nav_link">Home</a></li>
+  			<li class = "nav_element" id = "nav_about"><a href="#about" class = "nav_link">About</a></li>
+  			<li class = "nav_element" id = "nav_projects"><a href="#projects" class = "nav_link">Projects</a></li>
+  			<li class = "nav_element" id = "nav_resume" onclick="window.open('Resume - Lawrence Zhao.pdf', '_blank')"><a href="javascript:;" class = "nav_link">Resume</a></li>
+  			<li class = "nav_element" id = "nav_interests"><a href="#interests" class = "nav_link">Interests</a></li>
+ 			 <li class = "nav_element" id = "nav_contact"><a href="#contact" class = "nav_link">Contact</a></li>
+		</ul>
+  	</nav> 
 
-  <div class = "title_slide" id = "home">
+  	<div id = "home" class = "section">
+		<h1 id = "name_title" class = "section_title">H&#305, I'm Lawrence Zhao</h1>
+		<h2 id = "subtitle">Welcome to Lawrence Zhao's website! Unfortunately, this website is still under construction. Come back soon to see the final product!</h2>
+  	</div>
 
-    <div class = "opening_text">
-      <h1 id = "name_title">Hi, I'm Lawrence Zhao</h1>
-      <h3 id = "subtitle">Welcome to Lawrence Zhao's website! Unfortunately, this website is still under construction. Come back soon to see the final product!</h3>
-    </div>
-  </div>
+  	<div class = "section" id = "about">
+		<h1 id = "about_title" class = "section_title">About Me</h1>
+		<p class = "about_text">about</p>
+  	</div>
 
-  <div class = "about" id = "about">
-    <h1 id = "about_title" class = "section_title">About Me</h1>
-    <p class = "about_text">about</p>
-  </div>
+  	<div class = "section" id = "projects">
+		<h1 id = "projects_title" class = "section_title">Projects</h1>
+		<p class = "projects_text">about</p>
+  	</div>
+
+  	<div class = "section" id = "interests">
+		<h1 id = "interests_title" class = "section_title">Interests</h1>
+		<p class = "interests_text">about</p>
+  	</div>
+
+  	<div class = "section" id = "contact">
+		<h1 id = "contact_title" class = "section_title">Contact Me</h1>
+		<p class = "contact_text">about</p>
+  	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script src="script.js"></script>
 

@@ -1,50 +1,62 @@
 body{
-background-image: url("comet.jpg");
+	margin: 0;
 }
-.title_slide {
-    height: 100vh;
-    width: 100vw;  
-    margin: 0;
-    padding: 0;
+#home {
+	background-image: url("comet.jpg");
+	background-position: center center;
+	background-repeat:no-repeat;
+	color: white;
 }
-.opening_text {
-    text-align: center;
-    vertical-align: middle;
-    position: absolute;
-    color: white;
-    top: 50%;
+#name_title{
+	line-height: 96vh;
+	font-size: 89px;
+	margin: auto;
+}
+#subtitle{
+	text-align: center;
+	margin-top: -40vh;
+}
+.section{
+	height: 100vh;
+	width: 100vw;  
+	margin: 0;
+	padding: 0;
+}
+.section_title{
+	text-align: center;
+	line-height: 20vh;
 }
 
+.navigation_bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;  
+	background-color: black;
+	overflow: hidden;
+	opacity: 0.5;
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    margin-left: -10px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
-
-li {
-    float: left;
+.nav_element {
+	display: inline; 
+	float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+	background-color: #111;
 }
 .active {
-    background-color: #4CAF50;
+	background-color: #4CAF50;
 }
 
