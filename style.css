@@ -2,7 +2,7 @@ body{
 	margin: 0;
 }
 #home {
-	background-image: url("comet.jpg");
+	background-image: url("images/comet.jpg");
 	background-position: center center;
 	background-repeat:no-repeat;
 	margin-top: 0vh;
@@ -17,9 +17,16 @@ body{
 	margin-top: -40vh;
 }
 #about {
-	background-image: url("reverse comet.jpg");
+	background-image: url("images/reverse comet.jpg");
 	background-position: center center;
 	background-repeat:no-repeat;
+}
+#about_image{
+	margin: auto;
+	margin-top: -5vh;
+}
+h1,h2,p{
+	margin:0px;
 }
 .section{
 	height: 100vh;
@@ -29,11 +36,16 @@ body{
 	border: 0;
 	background-color: #07031c; 
 	color: white; 
-	margin-top: -3vh;
+	text-align: center;
+}
+.text{
+	width: 1050px;
+	margin: auto;
+	font-size: 20px;
 }
 .section_title{
 	text-align: center;
-	line-height: 40vh;
+	line-height: 25vh;
 	font-size: 40px;
 }
 
