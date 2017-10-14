@@ -32,4 +32,8 @@ $("#nav_contact").click(function() {
 	}, 1000);
 });
 
+$(".logo").hover(
+	function() {$(this).fadeTo("fast", 0.5);},
+	function() {$(this).fadeTo("fast", 1);});
+
 

@@ -82,3 +82,11 @@ li a:hover {
 	background-color: #4CAF50;
 }
 
+.logo {
+	padding: 25px 50px 50px 50px;
+}
+
+#author_credit {
+	margin-top: 100px;
+}
+
