@@ -4,17 +4,17 @@ body{
 #home {
 	background-image: url("images/comet.jpg");
 	background-position: center center;
-	background-repeat:no-repeat;
-	margin-top: 0vh;
+	background-repeat: no-repeat;
 }
 #name_title{
 	line-height: 96vh;
-	font-size: 89px;
+	font-size: 86px;
 	margin: auto;
 }
 #subtitle{
 	text-align: center;
 	margin-top: -40vh;
+	font-size: 25px;
 }
 #about {
 	background-image: url("images/reverse comet.jpg");
@@ -30,7 +30,7 @@ h1,h2,p{
 }
 .section{
 	height: 100vh;
-	width: 100vw;  
+	width: 100%;  
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -89,4 +89,5 @@ li a:hover {
 #author_credit {
 	margin-top: 100px;
 }
+
 
